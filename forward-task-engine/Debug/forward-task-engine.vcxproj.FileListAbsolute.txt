@@ -1,0 +1,2 @@
+D:\ego-project\forward-task-engine\forward-task-engine\Debug\forward-task-engine.exe
+D:\ego-project\forward-task-engine\forward-task-engine\Debug\forward-task-engine.pdb
