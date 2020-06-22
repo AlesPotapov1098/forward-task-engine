@@ -1,5 +1,0 @@
-﻿  main.cpp
-D:\ego-project\forward-task-engine\forward-task-engine\main.cpp(19,87): warning C4305: аргумент: усечение из "double" в "float"
-  test_engine.cpp
-  Создание кода...
-  forward-task-engine.vcxproj -> D:\ego-project\forward-task-engine\forward-task-engine\Debug\forward-task-engine.exe
