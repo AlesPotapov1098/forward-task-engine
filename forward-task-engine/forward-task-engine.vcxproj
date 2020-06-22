@@ -139,19 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="engine.cpp" />
-    <ClCompile Include="ic_engine.cpp" />
-    <ClCompile Include="test_ic_engine.cpp" />
-    <ClCompile Include="io_console.cpp" />
+    <ClCompile Include="engine\engine.cpp" />
+    <ClCompile Include="engine\ic_engine.cpp" />
+    <ClCompile Include="test-engine\test_ic_engine.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="test_engine.cpp" />
+    <ClCompile Include="test-engine\test_engine.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="engine.h" />
-    <ClInclude Include="ic_engine.h" />
-    <ClInclude Include="test_ic_engine.h" />
-    <ClInclude Include="io_console.h" />
-    <ClInclude Include="test_engine.h" />
+    <ClInclude Include="engine\engine.h" />
+    <ClInclude Include="engine\ic_engine.h" />
+    <ClInclude Include="test-engine\test_ic_engine.h" />
+    <ClInclude Include="test-engine\test_engine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,48 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="engines">
-      <UniqueIdentifier>{e5ad64c6-d3e5-458f-b86b-27ee8e39e4ce}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="engine_test">
-      <UniqueIdentifier>{818e1dae-35eb-4e1e-83c7-4c4619259173}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="io_console.cpp">
+    <ClCompile Include="test-engine\test_engine.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="engine.cpp">
-      <Filter>engines</Filter>
+    <ClCompile Include="test-engine\test_ic_engine.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="ic_engine.cpp">
-      <Filter>engines</Filter>
+    <ClCompile Include="engine\engine.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="test_engine.cpp">
-      <Filter>engine_test</Filter>
-    </ClCompile>
-    <ClCompile Include="test_ic_engine.cpp">
-      <Filter>engine_test</Filter>
+    <ClCompile Include="engine\ic_engine.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="io_console.h">
+    <ClInclude Include="test-engine\test_engine.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="ic_engine.h">
-      <Filter>engines</Filter>
+    <ClInclude Include="test-engine\test_ic_engine.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="engine.h">
-      <Filter>engines</Filter>
+    <ClInclude Include="engine\ic_engine.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="test_engine.h">
-      <Filter>engine_test</Filter>
-    </ClInclude>
-    <ClInclude Include="test_ic_engine.h">
-      <Filter>engine_test</Filter>
+    <ClInclude Include="engine\engine.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
